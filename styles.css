@@ -4,6 +4,9 @@ body {
 
 header {
     text-align: center;
+    background-color: gold;
+    border-top: 10px solid orangered;
+    border-bottom: 10px solid orangered;
 }
 
 h1 {
@@ -29,4 +32,10 @@ strong {
     padding-left: 0.25em;
     padding-right: 0.25em;
 
+}
+
+.spacelink {
+    float: right;
+    padding-top: 35px;
+    
 }
