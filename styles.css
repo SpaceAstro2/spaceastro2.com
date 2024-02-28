@@ -1,12 +1,11 @@
 body {
-    background-color: dodgerblue;
+    background-color: blue;
 }
 
 header {
     text-align: center;
-    background-color: gold;
-    border-top: 10px solid orangered;
-    border-bottom: 10px solid orangered;
+    background-color: blue;
+    padding: 30px;
 }
 
 h1 {
@@ -34,8 +33,8 @@ strong {
 
 }
 
-.spacelink {
-    float: right;
-    padding-top: 35px;
-    
+
+a img {
+    border-radius: 50%;
+    width: 200px;
 }
