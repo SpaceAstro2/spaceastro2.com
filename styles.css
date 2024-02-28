@@ -4,7 +4,6 @@ body {
 
 header {
     text-align: center;
-    background-color: blue;
     padding: 30px;
 }
 
@@ -37,4 +36,31 @@ strong {
 a img {
     border-radius: 50%;
     width: 200px;
+}
+
+em {
+    background-color: gold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+
+@media (max-width: 1000px) {
+    body {
+        background-color: goldenrod;
+
+    }
+}
+
+@media (min-width: 2000px) {
+    body{
+       background-color: blue;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: red;
+    }
 }
