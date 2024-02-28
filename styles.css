@@ -45,6 +45,7 @@ em {
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 20px;
+}
 
 @media (max-width: 1000px) {
     body {
