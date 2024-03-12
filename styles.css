@@ -47,6 +47,17 @@ em {
     border-radius: 20px;
 }
 
+button {
+    background-color: brown;
+    border: 4px solid gold;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gold;
+}
+
 
 @media (min-width: 2000px) {
     body{
@@ -58,3 +69,36 @@ em {
     font-size: 30px;
     display: inline-block;
 }
+
+.chucknorris {
+    font-weight: bolder;
+    font-size: 100px;
+    color: darkred;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+.welcome {
+    background-color: darkred;
+    border-radius: 20px;
+    font-size: 40px;
+    color:gold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid gold;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.chucktitle {
+    background-color: goldenrod;
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    border: 10px solid darkred;
+    border-radius: 50px;
+}
+
