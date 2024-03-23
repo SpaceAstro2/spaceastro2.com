@@ -65,6 +65,14 @@ button {
         font-size: 70px;
     }
 }
+
+.chucknorris2 {
+    background-color: brown;
+    width: 500px;
+    padding: 10px;
+    
+}
+
 .bigmain {
     font-size: 30px;
     display: inline-block;
