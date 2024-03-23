@@ -22,5 +22,38 @@
     <h1 class="chucktitle"><span class="welcome">welcome to</span><br><span class="chucknorris">Chuck Norris</span> <br> Joke Generator!</h1><br>
     <a href="chucknorris_jg.html"><button>Chick To Start</button></a>
 </div>
-<a href="./calculator/calculator.html"><p>Visit the Magic Calculator</p></a>
+<div class="magic">
+    <a href="./MagicCalculator/calculator.html"><h1 id="calculator2">Visit the Magic Calculator</h1></a>
+</div>
+
+    <div id="big" style="margin: 10px;">
+        <div id="Calculator">
+            <h1 id="magic">Magic Calculator</h1>
+                <input id="display" readonly>
+            <div id="keys">
+                <button onclick="clearDisplay('C')" id="c">C</button>
+                <button onclick="squareRoot()" id="sqrt">√</button>
+                <button onclick="square()" id="sq">S</button>
+                <button onclick="apendToDisplay('%')" id="percentage">%</button>
+                <button onclick="apendToDisplay('7')" >7</button>
+                <button onclick="apendToDisplay('8')" >8</button>
+                <button onclick="apendToDisplay('9')" >9</button>
+                <button onclick="apendToDisplay('+')"  class="or">+</button>  
+                <button onclick="apendToDisplay('4')" >4</button>
+                <button onclick="apendToDisplay('5')" >5</button>
+                <button onclick="apendToDisplay('6')" >6</button>
+                <button onclick="apendToDisplay('*')" class="or">x</button>
+                <button onclick="apendToDisplay('1')" >1</button>
+                <button onclick="apendToDisplay('2')" >2</button>
+                <button onclick="apendToDisplay('3')" >3</button>
+                <button onclick="apendToDisplay('-')" class="or" >-</button>
+                <button onclick="apendToDisplay('0')" >0</button>
+                <button onclick="apendToDisplay('.')" >.</button>
+                <button onclick="calculate('=')" id="equals">=</button>
+                <button onclick="apendToDisplay('/')" class="or" >/</button>
+            </div>
+        </div>
+
+    <script src="MagicCalculator/calculator.js" charset="utf-8"></script>
+</div>
 </body>
